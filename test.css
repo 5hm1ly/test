@@ -1,5 +1,5 @@
 body::before {
-  content: "TEST POC";
+  content: "CSS 修改测试 PoC";
   position: fixed;
   top: 0;
   left: 0;
