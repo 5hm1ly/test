@@ -1,9 +1,9 @@
 body::before {
-  content: "hacked byaaaaaaaaa";
+  content: "POC TESTTESTTESTTESTTESTTEST";
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* 使元素宽度占满整个屏幕 */
+  width: 1000%; /* 使元素宽度占满整个屏幕 */
   background-color: rgba(255, 255, 255, 0.5); /* 半透明背景 */
   color: red;
   font-size: 24px;
