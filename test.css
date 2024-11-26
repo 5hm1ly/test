@@ -1,7 +1,10 @@
-#js_single_page_container{
-    display: none;
-}
-
-.login-tabs-tab active:before{
-    content:"hacked by testaaaaaaaaaa";
+body:after {
+  content: "hacked by xxxxxxxxxxx";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: red;
+  background-color: black;
+  padding: 10px;
+  font-weight: bold;
 }
