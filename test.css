@@ -2,6 +2,6 @@
     display: none;
 }
 
-.login_page_standalone:before{
+.login-tabs-tab active:before{
     content:"hacked by testaaaaaaaaaa";
 }
