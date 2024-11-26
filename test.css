@@ -1,14 +1,14 @@
-body::after {
+body::before {
   content: "hacked byaaaaaaaaa";
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%; /* 使元素宽度占满整个屏幕 */
+  background-color: rgba(255, 255, 255, 0.5); /* 半透明背景 */
   color: red;
   font-size: 24px;
   font-weight: bold;
-  padding: 10px;
-  pointer-events: none;
-  z-index: 9999;
-  !important;
+  padding: 10px 0; /* 调整内边距 */
+  text-align: center; /* 文本居中 */
+  z-index: 9999; /* 确保元素在最上层 */
 }
