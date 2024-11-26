@@ -3,11 +3,12 @@ body::after {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5); /* 半透明背景，可以根据需要调整 */
-  color: red; /* 文本颜色 */
-  font-size: 24px; /* 字体大小 */
-  font-weight: bold; /* 字体加粗 */
-  padding: 10px; /* 内边距 */
-  pointer-events: none; /* 防止覆盖点击事件 */
-  z-index: 9999; /* 确保在最上层 */
+  background-color: rgba(255, 255, 255, 0.5);
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  pointer-events: none;
+  z-index: 9999;
+  !important;
 }
